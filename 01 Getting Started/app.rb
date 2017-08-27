@@ -8,7 +8,7 @@ class GiftBasket < Sinatra::Base
   attr_reader :tokens
   API_KEY = ENV['781229a2e51e11f8b3d9b052454a62d0']
   API_SECRET = ENV['9392215f4e2527ece10532895b99d60b']
-  APP_URL = "https://shrouded-escarpment-38751.herokuapp.com/"
+  APP_URL = "https://shrouded-escarpment-38751.herokuapp.com/giftbasket/install"
 
   def initialize
     @tokens = {}
